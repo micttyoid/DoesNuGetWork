@@ -1,9 +1,11 @@
+# DoesNuGetWork: Simple Connectivity Test
+
 ## Upload
 
 1. Pack
     ```
     $ dotnet pack
-    $ cp ./bin/Release/LukeYoo.DoesNuGetWork.1.0.0.nupkg ~/Desktop/
+    $ cp ./bin/Release/LukeYoo.DoesNuGetWork.*.nupkg ~/Desktop/
     ```
 
 2. Upload at the NuGet Website
@@ -15,7 +17,9 @@
 
 
 
-## Reference
+## References
 
-[Nuspec Properties](https://learn.microsoft.com/en-us/nuget/create-packages/package-authoring-best-practices#authors)
+[Properties](https://learn.microsoft.com/en-us/nuget/create-packages/package-authoring-best-practices#authors)
+
+[Add README](https://devblogs.microsoft.com/nuget/add-a-readme-to-your-nuget-package/#add-a-readme-to-your-package)
 
