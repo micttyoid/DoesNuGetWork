@@ -1,15 +1,15 @@
 ## Upload
 
 1. Pack
-```
-$ dotnet pack
-$ cp ./bin/Release/LukeYoo.DoesNuGetWork.1.0.0.nupkg ~/Desktop/
+    ```
+    $ dotnet pack
+    $ cp ./bin/Release/LukeYoo.DoesNuGetWork.1.0.0.nupkg ~/Desktop/
+    ```
 
-```
-
-2. Drop
+2. Upload at the NuGet Website
 - Go to: https://www.nuget.org/packages/manage/upload
-- Upload 
+- Drop(Upload) from _Desktop_
+- Submit
 
 
 
