@@ -1,21 +1,19 @@
 # DoesNuGetWork: Simple Connectivity Test
 
+[Package](https://www.nuget.org/packages/LukeYoo.DoesNuGetWork)
+
 ## Upload
 
 1. Pack
     ```
-    $ dotnet pack
-    $ cp ./bin/Release/LukeYoo.DoesNuGetWork.*.nupkg ~/Desktop/
+    $ dotnet pack -c Release -o .
+    $ cp ./LukeYoo.DoesNuGetWork.*.nupkg ~/Desktop/
     ```
 
 2. Upload at the NuGet Website
 - Go to: https://www.nuget.org/packages/manage/upload
 - Drop(Upload) from _Desktop_
 - Submit
-
-
-
-
 
 ## References
 

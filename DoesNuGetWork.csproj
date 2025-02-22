@@ -5,10 +5,12 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <PackageId>LukeYoo.DoesNuGetWork</PackageId>
-    <PackageReadmeFile>README.md</PackageReadmeFile>
-    <Version>1.0.2</Version>
-    <Authors>Luke Yoo</Authors>
     <Product>DoesNuGetWork</Product>
+    <Version>1.0.3</Version>
+    <Authors>Luke Yoo</Authors>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>hhttps://github.com/micttyoid/DoesNuGetWork.git</RepositoryUrl> 
+    <RepositoryType>git</RepositoryType> 
   </PropertyGroup>
 
   <ItemGroup>
