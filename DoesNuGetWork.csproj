@@ -6,14 +6,23 @@
     <Nullable>enable</Nullable>
     <PackageId>LukeYoo.DoesNuGetWork</PackageId>
     <Product>DoesNuGetWork</Product>
-    <Version>1.0.3</Version>
+    <Version>1.0.4</Version>
     <Authors>Luke Yoo</Authors>
     <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <Copyright>Copyright (c) 2025 Luke Yoo. All rights reserved</Copyright>
+    <PackageProjectUrl>https://github.com/micttyoid/DoesNuGetWork</PackageProjectUrl>
     <RepositoryUrl>https://github.com/micttyoid/DoesNuGetWork.git</RepositoryUrl> 
-    <RepositoryType>git</RepositoryType> 
+    <RepositoryType>git</RepositoryType>
+    <Description>Simple one-time NuGet integration test without complex test logic</Description>
   </PropertyGroup>
 
   <ItemGroup>
     <None Include="nuget\README.md" Pack="true" PackagePath="\"/>
   </ItemGroup>
+
+  <ItemGroup>
+    <None Include="nuget\LICENSE.txt" Pack="true" PackagePath="\"/>
+  </ItemGroup>
+
 </Project>

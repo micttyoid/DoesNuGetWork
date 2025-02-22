@@ -1,4 +1,4 @@
-# DoesNuGetWork: Simple Connectivity Test
+# DoesNuGetWork: One-time NuGet integration test
 
 [Package](https://www.nuget.org/packages/LukeYoo.DoesNuGetWork)
 
@@ -17,7 +17,10 @@
 
 ## References
 
-[Properties](https://learn.microsoft.com/en-us/nuget/create-packages/package-authoring-best-practices#authors)
+
 
 [Add README](https://devblogs.microsoft.com/nuget/add-a-readme-to-your-nuget-package/#add-a-readme-to-your-package)
 
+[NuGet Practice](https://learn.microsoft.com/en-us/nuget/create-packages/package-authoring-best-practices)
+
+[CSProj Properties](https://learn.microsoft.com/en-us/nuget/reference/msbuild-targets)
