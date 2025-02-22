@@ -7,7 +7,7 @@
 1. Pack
     ```
     $ dotnet pack -c Release -o .
-    $ cp ./LukeYoo.DoesNuGetWork.*.nupkg ~/Desktop/
+    $ mv ./LukeYoo.DoesNuGetWork.*.nupkg ~/Desktop/
     ```
 
 2. Upload at the NuGet Website
