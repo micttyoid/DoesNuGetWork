@@ -1,6 +1,26 @@
-# DoesNuGetWork: One-time NuGet integration test
+# DoesNuGetWork: Simple NuGet integration test
 
-[Package](https://www.nuget.org/packages/LukeYoo.DoesNuGetWork)
+[NuGet Gallery](https://www.nuget.org/packages/LukeYoo.DoesNuGetWork)
+
+## Start: PowerShell
+
+```PowerShell
+Uninstall-Package LukeYoo.DoesNuGetWork
+    # ... NuGet installation process: did it go well?
+
+Install-Package LukeYoo.DoesNuGetWork
+    # Remove it. May retry later.
+```
+
+## Start: FreeBSD, Linux, or macOS
+
+```sh
+dotnet add package LukeYoo.DoesNuGetWork
+    # ... NuGet installation process: did it go well?
+
+dotnet remove package LukeYoo.DoesNuGetWork
+    # Remove it. May retry later.
+```
 
 ## Upload
 
