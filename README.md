@@ -37,10 +37,10 @@ dotnet remove package LukeYoo.DoesNuGetWork
 
 ## References
 
-
-
 [Add README](https://devblogs.microsoft.com/nuget/add-a-readme-to-your-nuget-package/#add-a-readme-to-your-package)
 
 [NuGet Practice](https://learn.microsoft.com/en-us/nuget/create-packages/package-authoring-best-practices)
 
-[CSProj Properties](https://learn.microsoft.com/en-us/nuget/reference/msbuild-targets)
+[Properties for .csproj](https://learn.microsoft.com/en-us/nuget/reference/msbuild-targets)
+
+[XUnit](https://learn.microsoft.com/en-us/dotnet/core/testing/unit-testing-with-dotnet-test)
