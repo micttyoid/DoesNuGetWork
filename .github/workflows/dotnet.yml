@@ -27,4 +27,4 @@ jobs:
     - name: Pack
       run: dotnet pack ./DoesNuGetWork --no-restore
     - name: Test
-      run: dotnet test --no-build --verbosity normal
+      run: dotnet test --verbosity normal
