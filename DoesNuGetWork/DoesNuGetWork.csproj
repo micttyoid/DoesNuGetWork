@@ -6,7 +6,7 @@
     <Nullable>enable</Nullable>
     <PackageId>LukeYoo.DoesNuGetWork</PackageId>
     <Product>DoesNuGetWork</Product>
-    <Version>1.0.5</Version>
+    <Version>1.0.6</Version>
     <Authors>Luke Yoo</Authors>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>

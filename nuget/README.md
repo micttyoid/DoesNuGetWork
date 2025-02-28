@@ -5,10 +5,10 @@ It is an empty package used for one-time connectivity test on the _NuGet_ regist
 ## Start: PowerShell
 
 ```PowerShell
-Uninstall-Package LukeYoo.DoesNuGetWork
+Install-Package LukeYoo.DoesNuGetWork
     # ... NuGet installation process: did it go well?
 
-Install-Package LukeYoo.DoesNuGetWork
+Uninstall-Package LukeYoo.DoesNuGetWork
     # Remove it. May retry later.
 ```
 
